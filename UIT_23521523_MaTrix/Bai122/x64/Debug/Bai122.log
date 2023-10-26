@@ -1,0 +1,4 @@
+﻿  Bai122.cpp
+D:\Code\BT ma tran\UIT_23521523_MaTrix\Bai122\Bai122.cpp(36,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Code\BT ma tran\UIT_23521523_MaTrix\Bai122\Bai122.cpp(38,6): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Bai122.vcxproj -> D:\Code\BT ma tran\UIT_23521523_MaTrix\x64\Debug\Bai122.exe
