@@ -1,1 +1,4 @@
-﻿
+﻿  Bai001.cpp
+C:\Users\quoc9\OneDrive\Documents\GitHub\UIT_MaTrix\UIT_23521313_MaTrix\Bai001\Bai001.cpp(30,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\quoc9\OneDrive\Documents\GitHub\UIT_MaTrix\UIT_23521313_MaTrix\Bai001\Bai001.cpp(34,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Bai001.vcxproj -> C:\Users\quoc9\OneDrive\Documents\GitHub\UIT_MaTrix\UIT_23521313_MaTrix\x64\Debug\Bai001.exe
