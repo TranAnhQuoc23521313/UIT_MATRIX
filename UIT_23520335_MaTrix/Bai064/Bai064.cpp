@@ -3,24 +3,34 @@
 using namespace std;
 
 int DemNguyenTo(int a[][500], int m, int n, int c);
-
+void Nhap(int [][500],int m,int n);
 int main() 
 {
     int m, n;
-    cin >> m >> n;
-    int a[m][500];
-    for (int i = 0; i < m; i++) 
-    {
-        for (int j = 0; j < n; j++) 
-        {
-            cin >> a[i][j];
-        }
-    }
+    int a[500][500];
+    Nhap(a,m,n);
     int c;
+    cout << "Nhap vao cot C:";
     cin >> c;
     int count = DemNguyenTo(a, m, n, c);
     cout << count << endl;
     return 0;
+}
+
+void Nhap(int a[][500], int& m, int& n)
+{
+	cout << "Nhap vao M: ";
+	cin >> m;
+	cout << "Nhap vao N: ";
+	cin >> n;
+	for (int i = 0; i < m; i++)
+	{
+		for (int j = 0; j < n; j++)
+		{
+			cout << "Nhap vao gia tri A[" << i << "][" << j << "]: ";
+			cin >> a[i][j];
+		}
+	}
 }
 
 int DemNguyenTo(int a[][500], int m, int n, int c) 
