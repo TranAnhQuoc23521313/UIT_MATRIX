@@ -13,7 +13,7 @@ int main()
 {
     float a[500][500];
     int n, m;
-    Nhap(a, n, m);
+    Nhap(a, m, n);
     cout << DemHoangHau(a, m, n);
     return 0;
 }
